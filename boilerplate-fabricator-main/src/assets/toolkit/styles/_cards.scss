@@ -1,0 +1,32 @@
+@import 'variables';
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-bottom: 3rem;
+}
+
+
+.card {
+    border-radius: $Radius;
+    color: $White;
+    padding: 1rem;
+    text-align: center;
+
+    img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    h5 {
+        font-size: 22px;
+        font-weight: 500;
+        padding-bottom: 0.25rem;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}

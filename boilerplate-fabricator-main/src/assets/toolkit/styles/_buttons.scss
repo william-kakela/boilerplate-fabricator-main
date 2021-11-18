@@ -1,0 +1,25 @@
+@import 'variables';
+
+.button {
+    background-color:  $DarkGreen;
+    color: $White;
+    width: 121px;
+    height: 36px;
+    border-radius: $Radius;
+    text-transform: uppercase;
+    font-family:'Quicksand', sans-serif;
+    border: none;
+    font-weight: bold;
+}
+
+.button_boka {
+    background-color: $White;
+    color: $DarkGreen;
+    width: 121px;
+    height: 36px;
+    font-family:'Quicksand', sans-serif;
+    border-radius: $Radius;
+    text-transform: uppercase;
+    border: 1px solid;  
+    font-weight: bold;
+}
